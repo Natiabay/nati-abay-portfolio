@@ -21,7 +21,7 @@ Write-Host ""
 
 # Step 4: Set up GitHub remote
 Write-Host "📋 Step 4: Setting up GitHub remote..." -ForegroundColor Yellow
-git remote set-url origin https://github.com/Natiabay/personal-portfolio.git
+git remote set-url origin https://github.com/Natiabay/Personal-Portfolio-Nati-A.git
 Write-Host ""
 
 # Step 5: Push to GitHub

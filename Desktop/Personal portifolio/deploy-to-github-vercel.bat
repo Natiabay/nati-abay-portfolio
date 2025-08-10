@@ -17,7 +17,7 @@ git commit -m "Update portfolio: 10+ projects, custom SVG placeholders, modern d
 echo.
 
 echo 📋 Step 4: Setting up GitHub remote...
-git remote set-url origin https://github.com/Natiabay/personal-portfolio.git
+git remote set-url origin https://github.com/Natiabay/Personal-Portfolio-Nati-A.git
 echo.
 
 echo 📋 Step 5: Pushing to GitHub...

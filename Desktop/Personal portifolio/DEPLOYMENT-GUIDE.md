@@ -9,7 +9,7 @@
 
 ### 1️⃣ **Create GitHub Repository**
 1. Go to [https://github.com/new](https://github.com/new)
-2. **Repository name**: `personal-portfolio`
+2. **Repository name**: `Personal-Portfolio-Nati-A`
 3. **Description**: `Professional portfolio showcasing 10+ projects with modern design`
 4. **Make it Public** ✅
 5. **Don't initialize** with README (we already have one)
@@ -32,14 +32,14 @@ deploy-to-github-vercel.ps1
 ```bash
 git add .
 git commit -m "Update portfolio: 10+ projects, custom SVG placeholders, modern design"
-git remote set-url origin https://github.com/Natiabay/personal-portfolio.git
+git remote set-url origin https://github.com/Natiabay/Personal-Portfolio-Nati-A.git
 git push -u origin master
 ```
 
 ### 3️⃣ **Deploy on Vercel**
 1. Go to [https://vercel.com/new](https://vercel.com/new)
 2. **Sign in with GitHub**
-3. **Import Git Repository**: Select `personal-portfolio`
+3. **Import Git Repository**: Select `Personal-Portfolio-Nati-A`
 4. **Framework Preset**: Other
 5. **Root Directory**: `./` (leave as default)
 6. **Build Command**: Leave empty
@@ -53,7 +53,7 @@ git push -u origin master
 4. **Wait for verification** (can take up to 24 hours)
 
 ## 🎉 **Your Portfolio Will Be Live At:**
-- **Vercel URL**: `https://personal-portfolio.vercel.app`
+- **Vercel URL**: `https://personal-portfolio-nati-a.vercel.app`
 - **Custom Domain**: `https://yourdomain.com` (if configured)
 
 ## 🔧 **Troubleshooting**
@@ -65,7 +65,7 @@ git remote -v
 
 # Reset remote if needed
 git remote remove origin
-git remote add origin https://github.com/Natiabay/personal-portfolio.git
+git remote add origin https://github.com/Natiabay/Personal-Portfolio-Nati-A.git
 ```
 
 ### **Vercel Build Fails**
