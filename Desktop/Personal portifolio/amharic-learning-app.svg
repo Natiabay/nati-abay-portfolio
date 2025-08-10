@@ -1,0 +1,71 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B6B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#EE5A52;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="icon" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFF5F5;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD93D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFB800;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="400" fill="url(#bg)"/>
+  
+  <!-- Language Learning Elements -->
+  <g transform="translate(200, 100)">
+    <!-- Book Icon -->
+    <rect x="0" y="0" width="80" height="60" rx="8" fill="url(#icon)"/>
+    <rect x="5" y="5" width="70" height="50" rx="4" fill="url(#accent)"/>
+    <line x1="15" y1="20" x2="65" y2="20" stroke="white" stroke-width="2"/>
+    <line x1="15" y1="30" x2="55" y2="30" stroke="white" stroke-width="2"/>
+    <line x1="15" y1="40" x2="65" y2="40" stroke="white" stroke-width="2"/>
+    
+    <!-- Amharic Characters -->
+    <text x="25" y="25" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">አ</text>
+    <text x="35" y="35" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">ማ</text>
+    <text x="45" y="45" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">ሪ</text>
+  </g>
+  
+  <!-- Flutter Logo -->
+  <g transform="translate(350, 120)">
+    <circle cx="30" cy="30" r="25" fill="url(#accent)"/>
+    <path d="M15 30 L30 15 L45 30 L30 45 Z" fill="white"/>
+    <circle cx="30" cy="30" r="8" fill="url(#accent)"/>
+  </g>
+  
+  <!-- Learning Progress -->
+  <g transform="translate(150, 250)">
+    <!-- Progress Bar -->
+    <rect x="0" y="0" width="300" height="8" rx="4" fill="rgba(255,255,255,0.3)"/>
+    <rect x="0" y="0" width="240" height="8" rx="4" fill="url(#accent)"/>
+    
+    <!-- Progress Indicators -->
+    <circle cx="60" cy="4" r="6" fill="white"/>
+    <circle cx="120" cy="4" r="6" fill="white"/>
+    <circle cx="180" cy="4" r="6" fill="white"/>
+    <circle cx="240" cy="4" r="6" fill="white"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="300" y="320" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">
+    Amharic Language Learning
+  </text>
+  <text x="300" y="345" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" opacity="0.9">
+    Flutter App • Cultural Education • Interactive Lessons
+  </text>
+  <text x="300" y="365" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" opacity="0.8">
+    Cross-platform • Dart • Language Learning
+  </text>
+  
+  <!-- Decorative Elements -->
+  <circle cx="80" cy="80" r="3" fill="url(#accent)" opacity="0.6"/>
+  <circle cx="520" cy="100" r="2" fill="url(#accent)" opacity="0.5"/>
+  <circle cx="100" cy="320" r="2" fill="url(#accent)" opacity="0.7"/>
+  <circle cx="500" cy="300" r="3" fill="url(#accent)" opacity="0.4"/>
+</svg>
